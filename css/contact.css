@@ -11,6 +11,11 @@
     margin: 30px auto;
 }
 
+.contact-form form {
+    display: flex;
+    gap: 20px;
+}
+
 .contact-form input {
     width: 450px;
     height: 55px;
