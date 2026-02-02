@@ -1,0 +1,34 @@
+.banner {
+    width: 90%;
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 4.5rem;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    color: #8f95a5;
+    margin-top: 30px;
+}
+
+.banner .btn-banner {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    padding: 25px 90px;
+    font-weight: 450;
+    border: none;
+    border-radius: 10px;
+    background-color: #263238;
+    color: white;
+}
+
+.banner .light-svg {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}

@@ -1,0 +1,65 @@
+.skills {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.skills h1 {
+    text-align: center;
+}
+
+/* .skills .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 220px;
+
+    gap: 25px;
+} */
+
+.btn_card {
+    font-size: 1.2rem;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #263238;
+    margin-top: 30px;
+}
+
+.skills .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "tall c1 c2"
+        "tall c3 c3";
+}
+
+.card p {
+    margin: 10px auto;
+}
+
+.tall {
+    grid-area: tall;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.c1 {
+    grid-area: c1;
+}
+.c2 {
+    grid-area: c2;
+}
+.c3 {
+    grid-area: c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background: #f7f7f7;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
